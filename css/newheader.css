@@ -1,0 +1,21 @@
+body {
+    background-color: #BCBC2A;
+}
+
+header {
+    width: 100%;
+    background-color: #626A0A;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.logo img {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
