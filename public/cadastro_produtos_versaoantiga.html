@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="./css/cadastroprodutos.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/Footer.css">
+</head>
+<body>
+    <header>
+    <nav>
+      <a href="/home.html" target="_blank"><img src="./img/logo.png" alt="Logo" /></a>
+      <div class="put">
+        <input type="text" class="nav-put" name="as_word" placeholder="Buscar produtos" maxlength="120" autofocus=""
+          autocapitalize="off" autocorrect="on" spellcheck="false" autocomplete="off" tabindex="2" value=""
+          aria-activedescendant="" aria-controls="cb1-list" aria-autocomplete="on" id="search" aria-expanded="false"
+          role="combobox" />
+        <button type="submit" target="search"></button>
+      </div>
+      <div class="menu">
+        <a href="./product-list.html" >Promoções</a>
+        <a href="#" target="_blank"><img id="user" src="./img/user-solid.svg" alt="user" /></a>
+      </div>
+      </div>
+      <div class="carrinho">
+        <a href="#" target="_blank"><img src="./img/carrinho.png" alt="Carrinho" /></a>
+      </div>
+    </nav>
+  </header>
+    <div id= "main-container">
+        <div id= "logo">
+            <center>
+                <a href="./home.html" target="_blank"><img src="./img/logoHortiproPNG2.png" width="35%" alt="logo"></a>
+            </center>
+        </div>
+
+        <br>
+
+        <h1>Cadastre Seus Produtos</h1>
+        
+        <form id="register-form">
+
+            <a href="#" target="_blank"><img src="./img/fotoproduto.png" alt="Fotoproduto"></a>
+            <div class="full-box">
+                <label for="fotodoproduto">Foto do Produto</label>
+                <input type="text" name="fotodoproduto" id="fotodoproduto" placeholder="Coloque a foto do seu produto">
+            </div>
+
+            <div class="full-box">
+                <label for="nomedoproduto">Nome do Produto</label>
+                <input type="text" name="nomedoproduto" id="nomedoproduto" placeholder="Digite o nome do seu produto">
+            </div>
+
+            <div class="full-box">
+                <label for="quantidadedoproduto">Quantidade do Produto</label>
+                <input type="text" name="quantidadedoproduto" id="quantidadedoproduto" placeholder="Digite a quantidade disponível do seu produto">
+            </div>
+
+            <div class="full-box">
+                <label for="unidadedoproduto">Unidade de medida do Produto</label>
+                <input type="text" name="unidadedoproduto" id="unidadedoproduto" placeholder="Digite a unidade de medida do seu produto">
+            </div>
+
+            <div class="full-box">
+                <label for="valordoproduto">Valor do Produto</label>
+                <input type="text" name="valordoproduto" id="valordoproduto" placeholder="Digite o valor do seu produto em sua quantidade mínima">
+            </div>
+
+            <div class="full-box">
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="./termos-e-condicoes.html">Termos de uso</a></label>
+            </div>
+
+            </br>
+
+            <div class="full-box">
+                <input type="submit" id="btn-submit" value="Registar">
+            </div>
+
+        </form>
+
+    </div>
+    <p class="error-validation template"></p>
+    <script src="cadastroprodutos.js"></script>
+
+    <footer>
+        <div class="logoFooter">
+          <img src="./img/logo.png" alt="Logo HortiPró" />
+          <p>Copyright © 2022 DH LTDA.</p>
+        </div>
+        <section class="footerLinks">
+          <class class="socialNetworks">
+            <a href="
+            " target="_blank"><img src="./img/instagram.png" alt="instagram" /></a>
+            <a href="#" target="_blank"><img src="./img/Facebook.png" alt="Facebook" /></a>
+            <a href="#" target="_blank"><img src="./img/twitter.png" alt="twitter" /></a>
+          </class>
+          <ul>
+            <li><a href="./politicas-de-privacidade.html">Políticas de Privacidade</a></li>
+            <li><a href="./about-us.html">Sobre nós</a></li>
+          </ul>
+        </section>
+        <form action="" method="post" class="newslatter">
+          <label for="emailNewslatter">Receba nossas promoções</label>
+          <div>
+            <input
+              type="e-mail"
+              id="emailNewslatter"
+              placeholder="Digite seu e-mail"
+            />
+            <button target="emailNewslatter" type="submit">Inscreva-se</button>
+          </div>
+        </form>
+      </footer>
+</body>
+</html>

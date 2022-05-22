@@ -1,119 +1,144 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Produtos</title>
-    <link rel="stylesheet" href="./css/cadastroprodutos.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="./css/Footer.css">
+    <title>Cadastre seu Produto</title>
+    <link href="./css/stylesariane.css" rel="stylesheet">
+    <link href="/css/newfooter.css" rel="stylesheet">
+    <link href="/css/newheader.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+
 </head>
+
+
 <body>
     <header>
-    <nav>
-      <a href="/home.html" target="_blank"><img src="./img/logo.png" alt="Logo" /></a>
-      <div class="put">
-        <input type="text" class="nav-put" name="as_word" placeholder="Buscar produtos" maxlength="120" autofocus=""
-          autocapitalize="off" autocorrect="on" spellcheck="false" autocomplete="off" tabindex="2" value=""
-          aria-activedescendant="" aria-controls="cb1-list" aria-autocomplete="on" id="search" aria-expanded="false"
-          role="combobox" />
-        <button type="submit" target="search"></button>
-      </div>
-      <div class="menu">
-        <a href="./product-list.html" >Promoções</a>
-        <a href="#" target="_blank"><img id="user" src="./img/user-solid.svg" alt="user" /></a>
-      </div>
-      </div>
-      <div class="carrinho">
-        <a href="#" target="_blank"><img src="./img/carrinho.png" alt="Carrinho" /></a>
-      </div>
-    </nav>
-  </header>
-    <div id= "main-container">
-        <div id= "logo">
-            <center>
-                <a href="./home.html" target="_blank"><img src="./img/logoHortiproPNG2.png" width="35%" alt="logo"></a>
-            </center>
+        <div class="logo">
+            <img src="./img/logoHortiproPNG2.png" />
         </div>
 
-        <br>
+    </header>
 
-        <h1>Cadastre Seus Produtos</h1>
-        
-        <form id="register-form">
+    <h1 class="title">Cadastre seu Produto</h1>
 
-            <a href="#" target="_blank"><img src="./img/fotoproduto.png" alt="Fotoproduto"></a>
-            <div class="full-box">
-                <label for="fotodoproduto">Foto do Produto</label>
-                <input type="text" name="fotodoproduto" id="fotodoproduto" placeholder="Coloque a foto do seu produto">
+    <section class="fundo grid-produto">
+        <div></div>
+        <div>
+
+            <img class="logohorti" src="./img/imghorti.png">
+
+            <form method="POST" action="/cadastro/produtos" class="form-cadastro-produto">
+                <label>
+            <span>Nome do Produto</span>
+            <input type="text" name="name_product" required />
+        </label>
+
+
+
+                <label>
+            <span>Tipo do Produto</span>
+            <select name="type_product" class="select-produto">
+                <option value="verduras">Verduras</option>
+                <option value="frutas">Frutas</option>
+                <option value="legumes">Legumes</option>
+                <option value="outros">Outros</option>
+            </select>
+        </label>
+
+                <label>
+            <span>Local de Produção</span>
+            <input name="local_product" type="text" required>
+        </label>
+
+                <label>
+            <span>Quantidade de produto no estoque</span>
+            <input name="quantity_product" type="number" required>
+
+        </label>
+
+                <label class="preco">
+            <span>Preço</span>
+            <input name="price_product" type="number" required>
+
+        </label>
+
+
+
+
+                <label>
+            <span>Descrição do Produto</span>
+            <textarea name="description_product" id="formação" cols="30" rows="10"></textarea>
+        </label>
+
+
+
+
+                <button class="button" type="submit">Registrar</button>
+            </form>
+        </div>
+        <div class="coluna-imagem">
+            <img class="logohorti" src="./img/imghorti.png">
+            <h1 class="title">Cadastre seu Produto</h1>
+            <div class="texto-icone-container">
+                <div class="texto-icone">
+                    <img class="icone" src="./img/icone.png" />
+                    <p>Adicionar imagem</p>
+                </div>
+                <img class="retanguloproduto" src="./img/retanguloproduto.png.png" />
             </div>
 
-            <div class="full-box">
-                <label for="nomedoproduto">Nome do Produto</label>
-                <input type="text" name="nomedoproduto" id="nomedoproduto" placeholder="Digite o nome do seu produto">
-            </div>
 
-            <div class="full-box">
-                <label for="quantidadedoproduto">Quantidade do Produto</label>
-                <input type="text" name="quantidadedoproduto" id="quantidadedoproduto" placeholder="Digite a quantidade disponível do seu produto">
-            </div>
 
-            <div class="full-box">
-                <label for="unidadedoproduto">Unidade de medida do Produto</label>
-                <input type="text" name="unidadedoproduto" id="unidadedoproduto" placeholder="Digite a unidade de medida do seu produto">
-            </div>
+        </div>
 
-            <div class="full-box">
-                <label for="valordoproduto">Valor do Produto</label>
-                <input type="text" name="valordoproduto" id="valordoproduto" placeholder="Digite o valor do seu produto em sua quantidade mínima">
-            </div>
+    </section>
 
-            <div class="full-box">
-                <input type="checkbox" name="agreement" id="agreement">
-                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="./termos-e-condicoes.html">Termos de uso</a></label>
-            </div>
-
-            </br>
-
-            <div class="full-box">
-                <input type="submit" id="btn-submit" value="Registar">
-            </div>
-
-        </form>
-
-    </div>
-    <p class="error-validation template"></p>
-    <script src="cadastroprodutos.js"></script>
 
     <footer>
-        <div class="logoFooter">
-          <img src="./img/logo.png" alt="Logo HortiPró" />
-          <p>Copyright © 2022 DH LTDA.</p>
-        </div>
-        <section class="footerLinks">
-          <class class="socialNetworks">
-            <a href="
-            " target="_blank"><img src="./img/instagram.png" alt="instagram" /></a>
-            <a href="#" target="_blank"><img src="./img/Facebook.png" alt="Facebook" /></a>
-            <a href="#" target="_blank"><img src="./img/twitter.png" alt="twitter" /></a>
-          </class>
-          <ul>
-            <li><a href="./politicas-de-privacidade.html">Políticas de Privacidade</a></li>
-            <li><a href="./about-us.html">Sobre nós</a></li>
-          </ul>
+        <section class="logo&copyright">
+            <div class="logo-footer">
+                <img src="./img/logoHortiproPNG2.png" />
+            </div>
+
+            <div class="copyright">
+                <h3>Copyright © 2022 DH LTDA</h3>
+            </div>
         </section>
-        <form action="" method="post" class="newslatter">
-          <label for="emailNewslatter">Receba nossas promoções</label>
-          <div>
-            <input
-              type="e-mail"
-              id="emailNewslatter"
-              placeholder="Digite seu e-mail"
-            />
-            <button target="emailNewslatter" type="submit">Inscreva-se</button>
-          </div>
-        </form>
-      </footer>
+
+
+        <section class="newslatter">
+            <form action="" method="post" class="newslatter">
+                <label for="emailNewslatter">Receba nossas promoções</label>
+                <div>
+                    <input type="e-mail" id="emailNewslatter" placeholder="Digite seu e-mail" />
+                </div>
+                <button target="emailNewslatter" type="submit">Inscreva-se</button>
+            </form>
+        </section>
+
+        <section class="socialNetworks">
+            <div class="social">
+                <a href="#" target="_blank"><img src="../img/instagram.png" alt="instagram" /></a>
+                <a href="#" target="_blank"><img src="../img/Facebook.png" alt="Facebook" /></a>
+                <a href="#" target="_blank"><img src="../img/twitter.png" alt="twitter" /></a>
+            </div>
+        </section>
+
+        <section class="termos">
+            <div class="politica"> <a href="./politicas-de-privacidade.html">Políticas de Privacidade</a> </div>
+            <div class="sobre-nos"> <a href="../termos-e-condicoes.html">Sobre Nós</a> </div>
+        </section>
+
+
+    </footer>
+
 </body>
+
 </html>
