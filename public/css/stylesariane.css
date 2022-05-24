@@ -142,6 +142,18 @@
                                 margin-top: 20px;
                             }
                             
+                            input[type="file"] {
+                                display: none;
+                            }
+                            
+                            .adicionar_imagem {
+                                padding: 20px 10px;
+                                background-color: #BCBC2A;
+                                text-align: center;
+                                display: block;
+                                border-radius: 9px;
+                            }
+                            
                             @media (max-width: 768px) {
                                 .title {
                                     display: none;
