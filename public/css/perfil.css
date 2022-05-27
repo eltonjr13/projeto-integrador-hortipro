@@ -8,8 +8,6 @@
 }
 
 
-
-
 .main{
     background-color: #CBCB94;
     border-radius: 40px;
@@ -20,9 +18,6 @@
     margin-top: 15px;
     margin-bottom: 50px;
 }
-
-
-
 
 
 #fotoPerfil img{
@@ -50,7 +45,7 @@
 }
 
 
-#seuEmail a{
+.main a{
     font-weight: 600;
     font-family: 'Segoe UI';
     color: #353D01; 
@@ -59,13 +54,11 @@
     margin-bottom: 2px;
     margin-left: 10px;
     position: relative;
-    right: 12%;
-
+    text-align: center;
     
 }
 
-
-#seuEmail h4{
+input {
     background-color: #fff;
     position: relative;
     text-align: center;
@@ -79,112 +72,10 @@
     font-family: 'Segoe UI';
     color: #353D01;   
     margin-top: 0;
-
-
-}
-
-
-
-
-#numero h4{
-    background-color: #fff;
-    position: relative;
-    text-align: center;
-    line-height: 120%;
-    width: 30%;
-    height: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
-    font-weight: 600;
-    font-family: 'Segoe UI';
-    color: #353D01;   
-    margin-top: 0;
-
-
-}
-
-
-#numero a{
-    font-weight: 600;
-    font-family: 'Segoe UI';
-    color: #353D01; 
+    margin-bottom: 20px;
+    border: none;
     display: flex;
     justify-content: center;
-    margin-bottom: 2px;
-    margin-left: 10px;
-    position: relative;
-    right: 13%;
-
-    
-}
-
-
-
-
-#cidade h4{
-    background-color: #fff;
-    position: relative;
-    text-align: center;
-    line-height: 120%;
-    width: 30%;
-    height: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
-    font-weight: 600;
-    font-family: 'Segoe UI';
-    color: #353D01;   
-    margin-top: 0;
-
-
-}
-
-#cidade a{
-    font-weight: 600;
-    font-family: 'Segoe UI';
-    color: #353D01; 
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2px;
-    margin-left: 10px;
-    position: relative;
-    right: 13%;
-
-    
-}
-
-#idade a{
-    font-weight: 600;
-    font-family: 'Segoe UI';
-    color: #353D01; 
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2px;
-    margin-left: 10px;
-    position: relative;
-    right: 13%;
-
-    
-}
-
-#idade h4{
-    background-color: #fff;
-    position: relative;
-    text-align: center;
-    line-height: 120%;
-    width: 30%;
-    height: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
-    font-weight: 600;
-    font-family: 'Segoe UI';
-    color: #353D01;   
-    margin-top: 0;
-    margin-bottom: 50px;
-
-
 }
 
 
@@ -207,42 +98,4 @@ button {
     margin: auto; 
     margin-bottom: 120px;
     cursor: pointer;
-
-  
   }
-  
-
-  @media(max-width: 600px){
-    #seuEmail h4{
-        width: 60%;
-        
-    }
-
-    #seuEmail a{
-        right: 22%;
-
-    }
-    #numero h4{
-        width: 60%;
-    }
-
-    #numero a{
-        right: 24%;
-    }
-
-    #cidade h4{
-        width: 60%;
-    }
-    #cidade a{
-        right: 25%;
-    }
-
-    #idade h4{
-        width: 60%;
-    }
-    #idade a{
-        right: 26%;
-    }
-  }
-
-
