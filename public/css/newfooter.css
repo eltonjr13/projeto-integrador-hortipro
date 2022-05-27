@@ -1,0 +1,243 @@
+.footer-basic {
+    /* padding:40px 0; */
+    background-color: #626A0A;
+    color: #ffffff;
+    border-radius: 40px 40px 0px 0px;
+    /* display:flex;
+    justify-content: center; */
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.social img {
+    width: 50px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 0px solid #ccc;
+    margin: 0 30px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    ;
+    text-align: left;
+    font-size: 15px;
+    color: #BCBC2A;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-weight: 500;
+    ;
+}
+
+.footer-basic .termos a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    font-size: 12px;
+    color: #BCBC2A;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-basic .termos {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -35px;
+}
+
+footer .newslatter input {
+    margin: 0;
+    border-radius: 89px;
+    width: 372px;
+    height: 24px;
+    border: 1px solid #e6ecf0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#texto {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.newslatter button {
+    display: block;
+    min-height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #353D01;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    color: #BCBC2A;
+    text-align: center;
+    margin-left: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.newslatter {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 600px) {
+    .footer-basic ul {
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+    .footer-basic li {
+        padding: 0 10px;
+    }
+    .footer-basic ul a {
+        color: inherit;
+        text-decoration: none;
+        opacity: 0.8;
+    }
+    .footer-basic ul a:hover {
+        opacity: 1;
+    }
+    .footer-basic .social {
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .social img {
+        width: 50px;
+    }
+    .footer-basic .social>a {
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+        line-height: 40px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        border: 0px solid #ccc;
+        margin: 0 30px;
+        color: inherit;
+        opacity: 0.75;
+    }
+    .footer-basic .social>a:hover {
+        opacity: 0.9;
+    }
+    .footer-basic .copyright {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 15x;
+        text-align: left;
+        font-size: 15px;
+        color: #BCBC2A;
+        margin-bottom: 0;
+        margin-left: 10px;
+        font-weight: 500;
+        ;
+    }
+    .footer-basic .termos a {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 0px;
+        font-size: 12px;
+        color: #BCBC2A;
+        margin-bottom: 0;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .footer-basic .termos {
+        text-align: right;
+        margin-right: 10px;
+        margin-top: -35px;
+    }
+    footer .newslatter input {
+        margin: 0;
+        border-radius: 89px;
+        width: 372px;
+        height: 24px;
+        border: 1px solid #e6ecf0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #texto {
+        font-size: 20px;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        text-align: center;
+        margin-bottom: 5px;
+        font-weight: 400;
+    }
+    .newslatter button {
+        display: block;
+        min-height: 30px;
+        width: 150px;
+        border-radius: 30px;
+        border: 0px;
+        background-color: #353D01;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 25px;
+        font-size: 15px;
+        font-weight: 200;
+        letter-spacing: 3px;
+        color: #BCBC2A;
+        text-align: center;
+        margin-left: 5px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .newslatter {
+        display: flex;
+        justify-content: center;
+    }
+}

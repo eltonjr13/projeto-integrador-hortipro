@@ -1,0 +1,228 @@
+body,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #BCBC2A;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #626A0A;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #D2D960;
+    border-radius: 20px;
+    border: 1px solid #626A0A;
+}
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #626A0A;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    display: flex;
+    height: 70px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 80px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+#header a {
+    color: #BCBC2A;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    background-color: 0, 0, 0, .05;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+@media(max-width: 600px) {
+    #btn-mobile {
+        display: block;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #BCBC2A;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        backdrop-filter: blur(10px);
+        background-color: rgba(188, 188, 42, 0.444);
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        color: #353D01;
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+        text-align: end;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #header {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    #hamburger {
+        color: #BCBC2A;
+        display: block;
+        width: 30px;
+        border-top: 3px solid;
+        position: absolute;
+        right: 50px;
+        top: 30px;
+        border-radius: 2px 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: currentColor;
+        margin-top: 4px;
+        transition: .5s;
+        position: relative;
+        border-radius: 2px 2px 2px 2px;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:1023px) {
+    #btn-mobile {
+        display: block;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #BCBC2A;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        backdrop-filter: blur(10px);
+        background-color: rgba(188, 188, 42, 0.444);
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        color: #353D01;
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+        text-align: end;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #header {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    #hamburger {
+        color: #BCBC2A;
+        display: block;
+        width: 30px;
+        border-top: 3px solid;
+        position: absolute;
+        right: 50px;
+        top: 30px;
+        border-radius: 2px 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: currentColor;
+        margin-top: 4px;
+        transition: .5s;
+        position: relative;
+        border-radius: 2px 2px 2px 2px;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px
+    }
+}
