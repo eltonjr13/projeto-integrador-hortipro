@@ -1,0 +1,248 @@
+.titulo h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+
+
+
+.main{
+    background-color: #CBCB94;
+    border-radius: 40px;
+    padding: 30px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+#fotoPerfil img{
+    width: 200px;
+    border-radius: 100%;
+    border: 6px solid #353D01;
+    
+}
+
+#fotoPerfil{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+
+#nome h1{
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #353D01; 
+    text-align: center;
+}
+
+
+#seuEmail a{
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #353D01; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    position: relative;
+    right: 12%;
+
+    
+}
+
+
+#seuEmail h4{
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    line-height: 120%;
+    width: 30%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #353D01;   
+    margin-top: 0;
+
+
+}
+
+
+
+
+#numero h4{
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    line-height: 120%;
+    width: 30%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #353D01;   
+    margin-top: 0;
+
+
+}
+
+
+#numero a{
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #353D01; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    position: relative;
+    right: 13%;
+
+    
+}
+
+
+
+
+#cidade h4{
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    line-height: 120%;
+    width: 30%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #353D01;   
+    margin-top: 0;
+
+
+}
+
+#cidade a{
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #353D01; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    position: relative;
+    right: 13%;
+
+    
+}
+
+#idade a{
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #353D01; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    position: relative;
+    right: 13%;
+
+    
+}
+
+#idade h4{
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    line-height: 120%;
+    width: 30%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #353D01;   
+    margin-top: 0;
+    margin-bottom: 50px;
+
+
+}
+
+
+button {
+    display: block;
+    min-height: 40px;
+    width: 220px; 
+    border-radius: 30px; 
+     border: 0px;
+    background-color: #353D01;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px; 
+     color: #ffffff;
+    text-align: center;
+    margin-left: 5px; 
+     justify-content: center;
+    margin: auto; 
+    margin-bottom: 120px;
+    cursor: pointer;
+
+  
+  }
+  
+
+  @media(max-width: 600px){
+    #seuEmail h4{
+        width: 60%;
+        
+    }
+
+    #seuEmail a{
+        right: 22%;
+
+    }
+    #numero h4{
+        width: 60%;
+    }
+
+    #numero a{
+        right: 24%;
+    }
+
+    #cidade h4{
+        width: 60%;
+    }
+    #cidade a{
+        right: 25%;
+    }
+
+    #idade h4{
+        width: 60%;
+    }
+    #idade a{
+        right: 26%;
+    }
+  }
+
+
