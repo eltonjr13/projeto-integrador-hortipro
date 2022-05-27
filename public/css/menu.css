@@ -85,7 +85,7 @@ nav button:active {
 .menu a img {
   opacity: 0.8;
   width: 29px;
-  margin-left: 4vw;
+  margin-left: 2vw;
 }
 
 .menu a img:hover {
@@ -97,10 +97,8 @@ nav button:active {
 .carrinho img {
   width: 30px;
   height: 30px;
-  position: absolute;
-  top: 60px;
-  right: 4vw;
   opacity: 0.8;
+  margin-left: 2vw;
 }
 
 .carrinho img:hover {

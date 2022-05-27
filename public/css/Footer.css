@@ -10,6 +10,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 20px 4vw 20px 4vw;
+
 }
 
 .logoFooter {
@@ -104,6 +105,7 @@ footer .newslatter input {
   .logoFooter img {
     display: none;
   }
+
   footer {
     display: flex;
     flex-direction: column-reverse;
@@ -122,9 +124,10 @@ footer .newslatter input {
     border: 1px solid #e6ecf0;
     text-align: center;
   }
+
   .logoFooter p {
     margin-right: 10px;
-  
+
   }
 
   .footerLinks ul li {
@@ -132,27 +135,27 @@ footer .newslatter input {
   }
 }
 
-.logoFooter p{
-  color:antiquewhite;
+.logoFooter p {
+  color: antiquewhite;
   font-family: "Poppins", sans-serif;
 }
 
-.newslatter button{
+.newslatter button {
   min-height: 30px;
   width: 150px;
   border-radius: 30px;
   border: 0px;
-  background-color: rgb(37, 211, 102); 
+  background-color: rgb(37, 211, 102);
   font-family: "Roboto Condensed", sans-serif;
   height: 30px;
   font-size: 15px;
   font-weight: 200;
   letter-spacing: 3px;
-  }
-        
-  label {
-    /* font-weight: bold; */
-    font-size: 1em;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
+}
+
+label {
+  /* font-weight: bold; */
+  font-size: 1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
