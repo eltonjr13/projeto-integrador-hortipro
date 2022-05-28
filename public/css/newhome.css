@@ -1,55 +1,148 @@
 
 .cards{
-    margin: 0;
-    padding: 0;
-    margin-top: 15px;
-   
-    
-}
+    display: flex;
+    flex-direction: row;
+ justify-content: center;
+    gap: 1rem;
+    margin-bottom: 500px;
+    margin-top: 20px;
+  
+ }
 
 .promocoes{
     border-radius: 32px;
     margin-bottom: 15px;
     text-align: center;
+    background-color: #F4FFB8;
+    padding-bottom: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 50px;
 }
+
+
 .promocoes img{
-    width: 95%;
+    width: 98%;
+    height: 175px;
     border-radius: 52px;
     border: 5px solid #626A0A ;
     cursor: pointer;
    
 }
 
+.promocoes h1{
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #353D01;
+}
+
+.promocoes h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #353D01
+}
+
+.dicas a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #353D01;
+}
+
 .receitas{
     border-radius: 32px;
     margin-bottom: 15px;
     text-align: center;
+    background-color: #F4FFB8;
+    padding-bottom: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 50px;
+    
+
+
 }
 
 .receitas img{
-        width: 95%;
+        width: 98%;
+        height: 175px;
         border-radius: 52px;
         border: 5px solid #ba2c46 ;
         cursor: pointer;
        
 }
 
+.receitas h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+    color: #353D01;
+
+}
+
+.receitas h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #353D01;
+    margin-top: 0px;
+
+}
 
 .dicas{
     border-radius: 32px;
     margin-bottom: 15px;
     text-align: center;
+    background-color: #F4FFB8;
+    padding-bottom: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 50px;
 }
 
 .dicas img{
-        width: 95%;
+        width: 98%;
+        height: 175px;
         border-radius: 52px;
         border: 5px solid #b98100 ;
         cursor: pointer;
 }
 
 
-@media screen and (min-width: 1024px){
+@media(max-width: 850px){
+    .cards{
+        display:inline;
+        flex-direction: row;
+     justify-content: center;
+        gap: 1rem;
+        margin-bottom: 500px;
+       
+        
+      
+     }
+
+     .promocoes{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+      
+     }
+
+     .receitas{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+     }
+     
+     .dicas{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+     }
+
+
+    }
+
+
+
+/* @media screen and (min-width: 1024px){
     .cards{
        display: flex;
        flex-direction: row;
@@ -60,18 +153,18 @@
     }
 
     .promocoes img{
-        width:90%;
+        width:98%;
         height: 175px;
        
         
     }
     .receitas img{
-        width: 90%;
+        width: 98%;
         height: 175px;
        
     }
     .dicas img{
-        width: 90%;
+        width: 98%;
         height: 175px;
        
     }
@@ -111,3 +204,19 @@
      }
      
 }
+
+
+@media screen and(max-width: 767px){
+    .promocoes {
+        border-radius: 32px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #F4FFB8;
+    padding-bottom: 20px;
+    width: 400px;
+    height: 370px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+} */
